@@ -1,0 +1,42 @@
+button, .button {
+	border-radius: 12px;
+	padding: 8px;
+	background-color: grey;
+	margin: 5px;
+}
+button, .button, .log_in {
+	width: 90px;
+
+}
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
+	padding: 15px;
+	margin-right: 10px;
+	border-radius: 20px;
+}
+
+button, .button h4 {
+	display: block;
+	padding: 25px;
+	margin: 5px 5px 5px 5px;
+	width: 260px;
+	-webkit-border-radius: 45px;
+    -webkit-border-top-left-radius: 1px;
+	-moz-border-radius: 45px;
+	-moz-border-radius-topleft: 1px;
+	border-radius: 45px;
+	border-top-left-radius: 1px;
+}
+.wrapper {
+	position: relative;
+	margin: 60px 10px 20px 10px;
+	background-color: pink;
+}
+
+.log_in {
+	
+	border-radius: 5px;
+}
+.top-bar {
+	height: 100px;
+	background-color: #9E9E9E;
+}
